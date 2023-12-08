@@ -14,5 +14,6 @@ burgerButton.addEventListener("click", () => {
 closeButton.addEventListener("click", () => {
   menu.classList.remove("active");
   document.body.removeChild(overlay);
+  overlay.classList.remove("active");
   document.body.classList.remove("no-scroll");
 });
